@@ -1,4 +1,8 @@
 Writings::Application.routes.draw do
+  resources :posts do
+      resources :comments
+  end
+
   get "welcome/index"
 
   # The priority is based upon order of creation:
