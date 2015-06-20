@@ -1,4 +1,4 @@
-Railsworld::Application.routes.draw do
+Writings::Application.routes.draw do
   get "welcome/index"
 
   # The priority is based upon order of creation:
